@@ -1,0 +1,72 @@
+@import "tailwindcss";
+.container {
+  background:url("../medisense.avif") ;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+  .section {
+    text-align: center;
+width: 320px;
+  margin:10px;
+  border: 2px solid black;
+  color: black;
+  border-radius: 10px;
+
+}
+h2{
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+.btn{
+  width: 300px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.data{
+  background:url("../loginmedisense.webp");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#go{
+width: 300px;
+margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign{
+    border: 2px solid beige;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#heading{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+}
