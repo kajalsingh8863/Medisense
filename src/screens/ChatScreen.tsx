@@ -85,7 +85,7 @@ export default function ChatScreen() {
         let streamedContent = "";
 
         try {
-            await fetchEventSource("https://medisense.sonu36437.workers.dev/api/chat", {
+            await fetchEventSource(" http://127.0.0.1:8787/api/chat", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({

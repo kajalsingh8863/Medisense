@@ -41,7 +41,7 @@ if (res.statusCode==200){
                     /><br/>
                      <input 
                      className="section"
-                    type="text"
+                    type="password"
                     name="password"
                     placeholder="password"
                     value={formData.password}
